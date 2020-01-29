@@ -1,11 +1,38 @@
 <div id="adfox_15803210474921178"></div>
 <script>
-    window.Ya.adfoxCode.create({
-        ownerId: 277740,
-        containerId: 'adfox_15803210474921178',
-        params: {
-            p1: 'cithk',
-            p2: 'gdyl'
-        }
-    });
+  console.log(
+    "*** Placement: GPM_7days.ru_D_630x200-Bottom-2 [cithk][gdyl]. Status: READ ***"
+  );
+  window.Ya.adfoxCode.create({
+    ownerId: 277740,
+    containerId: "adfox_15803210474921178",
+    params: {
+      p1: "cithk",
+      p2: "gdyl"
+    },
+    onLoad: function(data) {
+      console.log(
+        "*** Placement: GPM_7days.ru_D_630x200-Bottom-2 [cithk][gdyl]. Status: LOADED: " +
+          data +
+          " ***"
+      );
+    },
+    onRender: function() {
+      console.log(
+        "*** Placement: GPM_7days.ru_D_630x200-Bottom-2 [cithk][gdyl]. Status: RENDERED ***"
+      );
+    },
+    onError: function(error) {
+      console.log(
+        "*** Placement: GPM_7days.ru_D_630x200-Bottom-2 [cithk][gdyl]. Status: ERROR: " +
+          error +
+          " ***"
+      );
+    },
+    onStub: function() {
+      console.log(
+        "*** Placement: GPM_7days.ru_D_630x200-Bottom-2 [cithk][gdyl]. Status: EMPTY ***"
+      );
+    }
+  });
 </script>
