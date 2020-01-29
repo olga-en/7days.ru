@@ -1,0 +1,11 @@
+<div id="adfox_15803210474921178"></div>
+<script>
+    window.Ya.adfoxCode.create({
+        ownerId: 277740,
+        containerId: 'adfox_15803210474921178',
+        params: {
+            p1: 'cithk',
+            p2: 'gdyl'
+        }
+    });
+</script>
